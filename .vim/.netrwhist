@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/jim/Programming/project_haskell'
+let g:netrw_dirhist_2='/home/jim/Programming/project_haskell/Library'
+let g:netrw_dirhist_3='/home/jim/School/SF2729/course_summary'
