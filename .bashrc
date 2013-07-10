@@ -110,6 +110,9 @@ if [[ ! $TERM =~ screen ]]; then
     exec tmux
 fi
 
+VISUAL=vim; export VISUAL
+EDITOR=vim; export EDITOR
+
 GIT_BRANCH="git rev-parse --abbrev-ref HEAD 2> /dev/null"
 GIT_REMOTE_BRANCH="git rev-parse --symbolic-full-name --abbrev-ref @{u} 2> /dev/null"
 
