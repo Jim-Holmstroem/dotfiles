@@ -106,6 +106,10 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+if [[ ! $TERM =~ screen ]]; then
+    exec tmux
+fi
+
 GIT_BRANCH="git rev-parse --abbrev-ref HEAD 2> /dev/null"
 GIT_REMOTE_BRANCH="git rev-parse --symbolic-full-name --abbrev-ref @{u} 2> /dev/null"
 
