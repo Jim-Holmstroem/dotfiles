@@ -1,1 +1,1 @@
-:set show_hidden=True
+show_hidden=True
